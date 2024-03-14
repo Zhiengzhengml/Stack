@@ -7,8 +7,7 @@ public class Main {
     System.out.println("Please enter an expression using only parentheses'(){}[]' or enter'exit' to exit':");
     String expression = reader.nextLine();  
     BalancedParentheses balance = new BalancedParentheses();
-    balance.balancedParentheses(expression);
-    
+    balance.balancedParentheses(expression);  
     if(expression.equals("exit")){
         break;
     }
